@@ -2,10 +2,10 @@ import React from "react";
 
 const Travel = props => (
   <figure>
-    <img src={props.image} alt={props.character} />
+    <img src={props.image} alt={props.capital} />
     <figcaption>
       <blockquote>{props.quote}</blockquote>
-      <cite>{props.character}</cite>
+      <cite>{props.capital}</cite>
     </figcaption>
   </figure>
 );
